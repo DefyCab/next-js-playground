@@ -1,4 +1,4 @@
 export default function Page() {
-    return <h1>Posts</h1>;
+    return <h1>List of Posts: </h1>;
   }
   
