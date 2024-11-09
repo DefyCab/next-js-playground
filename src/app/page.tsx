@@ -1,9 +1,9 @@
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   return (
     <>
-      <Link href="/posts">Posts</Link>;
+      <Link href="/posts">Posts</Link>
       <br />
       <br />
       <Link href="/posts/1">First Post</Link>
