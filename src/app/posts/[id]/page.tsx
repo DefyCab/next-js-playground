@@ -1,5 +1,7 @@
 // dynamic route [id]
 
+import { H1 } from "@/app/h1";
+
 // in next js 15 params is asynchronous
 export default async function Page({
   params,
@@ -8,5 +10,5 @@ export default async function Page({
 }) {
   const id = (await params).id;
 
-  return <h1>{id}</h1>;
+  return <H1>{id}</H1>;
 }
